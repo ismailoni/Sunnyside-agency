@@ -26,6 +26,21 @@
     src: url(./Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
 }
 
+/* For WebKit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 7px; /* width of the scrollbar */
+}
+  
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, cyan, var(--yellow), var(--soft-red)); /* color of the thumb */
+    border-radius: 6px; /* rounded corners */
+}
+  
+::-webkit-scrollbar-track {
+    background: rgb(249, 249, 249); /* color of the track */
+}
+  
+
 
 header {
     background: url(./images/desktop/image-header.jpg);
@@ -238,7 +253,7 @@ section.standout span {
     color: var(--very-dark-desaturated-blue);
     font-weight: 600;
     font-family: fraunces;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     font-size: 14px;
 }
 section.standout span::after {
@@ -485,7 +500,6 @@ footer .icon svg path:hover {
         grid-template-rows: repeat(2, 1fr);
     }
 }
-
 
 
 
