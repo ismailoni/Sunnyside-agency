@@ -238,6 +238,7 @@ section.standout span {
     color: var(--very-dark-desaturated-blue);
     font-weight: 600;
     font-family: fraunces;
+    text-transform: uppercase;
     font-size: 14px;
 }
 section.standout span::after {
